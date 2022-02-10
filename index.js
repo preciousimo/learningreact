@@ -1,16 +1,12 @@
-// function MainContent() {
-//     return(
-//       <h2>I'm learning react!</h2>
-//     )
-//   }
+const navbar = (
+    <nav>
+        <h1>Prochi Limited</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
 
-// ReactDOM.render(<p>Hi, my name is Bob!</p>, document.getElementById("root"))
-// ReactDOM.render(<MainContent/>, document.getElementById("root"))
-
-function MainContent() {
-    return(
-        <h1>I'm learning react!</h1>
-    )
-}
-
-ReactDOM.render(<MainContent/>, document.getElementById("root"))
+ReactDOM.render(navbar, document.getElementById("root"))
